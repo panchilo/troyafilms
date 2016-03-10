@@ -1,8 +1,39 @@
 body {
 	background-color: #67A5BA;
+	text-align: center;
 }
 
-#logo {
-	text-align: center;
+.logo {
 	margin-top: 135px;
+}
+
+.contact-us-bottom {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding-bottom: 20px;
+}
+ 
+.trans-button {
+	background-color: Transparent;
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+	border-radius: 2px;
+	color: white;                     
+	padding: 10px 30px 10px 30px;                 
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: .2rem;
+	cursor:pointer;
+	text-decoration: none;
+	transition: background-color 0.2s, color 0.2s;
+}
+ 
+.trans-button:hover {    
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+	background-color: white;
+	color: #67A5BA;               
 }
