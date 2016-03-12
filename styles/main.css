@@ -27,9 +27,10 @@ body {
 	letter-spacing: .2rem;
 	cursor:pointer;
 	text-decoration: none;
+	-webkit-transition: background-color 0.2s, color 0.2s;
 	transition: background-color 0.2s, color 0.2s;
 }
- 
+
 .trans-button:hover {    
 	border-width: 1px;
 	border-color: white;
