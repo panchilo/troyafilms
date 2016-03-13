@@ -8,6 +8,6 @@ TODO: Gunther to provide URL
 * Improve iPhone Support (favicon)
 
 ## Online Resources ##
-* Bootstrap: [http://getbootstrap.com/](Link URL)
-* Skeleton: [http://getskeleton.com/](Link URL)
-* Good HTML & CSS Lessons: [http://learn.shayhowe.com/advanced-html-css/](Link URL)
+* Bootstrap: [http://getbootstrap.com/](http://getbootstrap.com/)
+* Skeleton: [http://getskeleton.com/](http://getskeleton.com/)
+* Good HTML & CSS Lessons: [http://learn.shayhowe.com/advanced-html-css/](http://learn.shayhowe.com/advanced-html-css/)
