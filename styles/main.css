@@ -5,7 +5,27 @@ body {
 
 .logo {
 	margin-top: 5rem;
+	width: 100%	
 }
+
+@media screen and (orientation:landscape) {
+	.logo {
+		width: 70%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.logo {
+		width: 70%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.logo {
+		width: 70%;
+	}
+}
+
 
 .contact-us-bottom {
 	position: fixed;
