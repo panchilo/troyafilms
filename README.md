@@ -11,3 +11,4 @@ TODO: Gunther to provide URL
 * Bootstrap: [http://getbootstrap.com/](http://getbootstrap.com/)
 * Skeleton: [http://getskeleton.com/](http://getskeleton.com/)
 * Good HTML & CSS Lessons: [http://learn.shayhowe.com/advanced-html-css/](http://learn.shayhowe.com/advanced-html-css/)
+* CSS Media Queries: [http://webdesignerwall.com/tutorials/css3-media-queries](http://webdesignerwall.com/tutorials/css3-media-queries)
