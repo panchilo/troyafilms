@@ -18,3 +18,4 @@ TODO: Gunther to provide URL
 * Good HTML & CSS Lessons: [http://learn.shayhowe.com/advanced-html-css/](http://learn.shayhowe.com/advanced-html-css/)
 * CSS Media Queries: [http://webdesignerwall.com/tutorials/css3-media-queries](http://webdesignerwall.com/tutorials/css3-media-queries)
 * CSS Hover Tricks: [http://gudh.github.io/ihover/dist/](http://gudh.github.io/ihover/dist/)
+* FavIcon Generator & Checker: [http://realfavicongenerator.net/](http://realfavicongenerator.net/)
