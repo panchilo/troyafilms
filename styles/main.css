@@ -4,25 +4,28 @@ body {
 }
 
 .logo {
-	margin-top: 5rem;
-	width: 100%	
+	margin-top: 7rem;
+	width: 34rem;
 }
 
 @media screen and (orientation:landscape) {
 	.logo {
-		width: 70%;
+		margin-top: 2rem;
+		width: 26rem;
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 550px) {
 	.logo {
-		width: 70%;
+		margin-top: 5rem;
+		width: 34rem;
 	}
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 750px) {
 	.logo {
-		width: 70%;
+		margin-top: 7rem;
+		width: 42rem;
 	}
 }
 
