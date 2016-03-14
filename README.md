@@ -4,7 +4,6 @@
 TODO: Gunther to provide URL
 
 ## Ideas ##
-* Improve responsiveness
 * Improve iPhone Support (favicon)
 * Create webhook for ci and cd
 
