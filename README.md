@@ -4,7 +4,6 @@
 TODO: Gunther to provide URL
 
 ## Ideas ##
-* Improve iPhone Support (favicon)
 * [Create script to deploy website through ftp](https://bitbucket.org/bluealba/website/issues/6/create-script-to-upload-website-through)
 * Create webhook for ci and cd
 
