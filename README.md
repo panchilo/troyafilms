@@ -5,6 +5,7 @@ TODO: Gunther to provide URL
 
 ## Ideas ##
 * Improve iPhone Support (favicon)
+* Create script to deploy website through ftp
 * Create webhook for ci and cd
 
 ## Online Resources ##
