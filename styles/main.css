@@ -4,7 +4,29 @@ body {
 }
 
 .logo {
-	margin-top: 135px;
+	margin-top: 7rem;
+	width: 34rem;
+}
+
+@media screen and (orientation:landscape) {
+	.logo {
+		margin-top: 2rem;
+		width: 26rem;
+	}
+}
+
+@media (min-width: 550px) {
+	.logo {
+		margin-top: 5rem;
+		width: 34rem;
+	}
+}
+
+@media (min-width: 750px) {
+	.logo {
+		margin-top: 7rem;
+		width: 42rem;
+	}
 }
 
 .contact-us-bottom {
