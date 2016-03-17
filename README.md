@@ -1,7 +1,7 @@
 # Blue Alba Website #
 
 ## Google Analytics ##
-TODO: [Gunther to provide URL](https://bitbucket.org/bluealba/website/issues/5/gunther-to-update-readmemd-with-google)
+https://analytics.google.com
 
 ## Ideas ##
 * [Create script to deploy website through ftp](https://bitbucket.org/bluealba/website/issues/6/create-script-to-upload-website-through)
