@@ -11,11 +11,11 @@ section#section-spash {
 	flex-direction: column;
 	align-items: center;
 	flex-wrap: nowrap;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 section#section-spash > img.logo {
-	width: 42rem;
+	width: 26rem;
 	margin: 20px 0;
 	flex-grow: 1;
 }
@@ -27,40 +27,28 @@ section#section-spash > img.logo {
 }
 
 section#section-spash > div.cta {
-	margin-top: 16vh;
 	margin-bottom: 20px;
 }
-
-section#section-another {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.contact-us-bottom {
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	padding-bottom: 20px;
-}
  
-.trans-button {
+.button {
 	background-color: Transparent;
 	border-width: 1px;
 	border-color: white;
 	border-style: solid;
 	border-radius: 2px;
-	color: white;                     
-	padding: 10px 30px 10px 30px;                 
+	color: white;
+	padding: 10px 30px;
 	font-size: 11px;
+	line-height: 1rem;
 	font-weight: 600;
 	letter-spacing: .2rem;
-	cursor:pointer;
+	cursor: pointer;
 	text-decoration: none;
 	-webkit-transition: background-color 0.2s, color 0.2s;
 	transition: background-color 0.2s, color 0.2s;
 }
 
-.trans-button:hover {    
+.button:hover {    
 	border-width: 1px;
 	border-color: white;
 	border-style: solid;
