@@ -26,7 +26,7 @@ section#section-spash > img.logo {
 	}
 }
 
-section#section-spash > div.cta {
+section#section-spash > a.button {
 	margin-bottom: 20px;
 }
  
@@ -44,6 +44,7 @@ section#section-spash > div.cta {
 	letter-spacing: .2rem;
 	cursor: pointer;
 	text-decoration: none;
+	text-transform: uppercase;
 	-webkit-transition: background-color 0.2s, color 0.2s;
 	transition: background-color 0.2s, color 0.2s;
 }
