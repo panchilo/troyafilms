@@ -1,36 +1,39 @@
-body {
+
+html, body {
+	background-color: white;
+}
+
+section#section-spash {	
 	background-color: #67A5BA;
-	text-align: center;
+	height: 100vh;
+	padding: 0 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: nowrap;
+	justify-content: space-around;
 }
 
-.logo {
-	margin-top: 7rem;
-	width: 34rem;
+section#section-spash > img.logo {
+	width: 42rem;
+	margin: 20px 0;
+	flex-grow: 1;
 }
 
-@media screen and (orientation:landscape) {
-	.logo {
-		margin-top: 4rem;
-		width: 26rem;
+@media (max-width: 450px) {
+	section#section-spash > img.logo {
+		width: 100%;
 	}
 }
-@media (min-width: 550px) {
-	.logo {
-		margin-top: 4rem;
-		width: 26rem;
-	}
+
+section#section-spash > div.cta {
+	margin-top: 16vh;
+	margin-bottom: 20px;
 }
-@media (min-width: 750px) {
-	.logo {
-		margin-top: 4rem;
-		width: 42rem;
-	}
-}
-@media (min-width: 1000px) {
-	.logo {
-		margin-top: 7rem;
-		width: 50rem;
-	}
+
+section#section-another {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .contact-us-bottom {
