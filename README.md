@@ -20,3 +20,4 @@ https://analytics.google.com
 * CSS Hover Tricks: [http://gudh.github.io/ihover/dist/](http://gudh.github.io/ihover/dist/)
 * FavIcon Generator & Checker: [http://realfavicongenerator.net/](http://realfavicongenerator.net/)
 * CSS-Tricks: [https://css-tricks.com](https://css-tricks.com)
+* Travis Neilson's Site: [http://travisneilson.com/](http://travisneilson.com/)
