@@ -1,4 +1,5 @@
 *.sublime*
+.ftpconfig
 /node_modules
 /.tmp
 /dist
