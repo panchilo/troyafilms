@@ -4,7 +4,6 @@
 https://analytics.google.com
 
 ## Ideas ##
-* [Create script to deploy website through ftp](https://bitbucket.org/bluealba/website/issues/6/create-script-to-upload-website-through)
 * Create webhook for ci and cd
 
 ## Online Resources ##
