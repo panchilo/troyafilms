@@ -1,10 +1,9 @@
 {
-  "name": "bluealba.com",
+  "name": "troyafilms.com",
   "version": "1.0.0",
-  "description": "Blue Alba Official Web Site",
+  "description": "Troya Films Official Web Site",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^3.9.1"
   },
   "devDependencies": {
     "browser-sync": "^2.11.1",
@@ -23,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://panchilo@bitbucket.org/bluealba/website.git"
+    "url": "https://github.com/panchilo/troyafilms"
   },
   "keywords": [
-    "bluealba.com",
+    "troyafilms",
     "official",
     "website"
   ],
-  "author": "Francisco Lopez,",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/bluealba/website#readme"
+  "author": "Victoria Lopez,",
+  "license": "MIT",
+  "homepage": "http://www.troyafilms.com/"
 }

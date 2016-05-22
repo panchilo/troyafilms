@@ -73,8 +73,8 @@ gulp.task("serve", ["build"], function() {
 
 gulp.task("publish", ["build"], function () {
 	var ftpConn = ftp.create({
-		host: ftpConfig.host || "ftp.bluealba.com",
-		user: ftpConfig.user || "bluealba",
+		host: ftpConfig.host || "ftp.troyafilms.com",
+		user: ftpConfig.user || "webmaster",
 		password: ftpConfig.config.pass,
 		parallel: 3,
 		log: gutil.log

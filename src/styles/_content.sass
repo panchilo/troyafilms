@@ -1,23 +1,101 @@
 html, body
-  background-color: white
+  background-color: $tf-background
 
-section#section-spash
-  background-color: $ba-primary
-  height: 100vh
-  padding: 0 20px
-  display: flex
-  flex-direction: column
-  align-items: center
-  flex-wrap: nowrap
-  justify-content: space-between
-  >
-    img.logo
-      width: 26rem
-      margin: 20px 0
-      flex-grow: 1
-    a.button
-      margin-bottom: 20px
+body
+	font-family: Lato
+	font-weight: 300
+	color: $tf-light
+	min-width: 320px
+	min-height: 320px
 
-@media (max-width: 450px)
-  section#section-spash > img.logo
-    width: 100%
+h1,h2,h3,h4,h5
+	font-weight: 300
+
+.section-splash
+	background-image: url(/images/bg-splash-01.png)
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	box-sizing: border-box
+	min-height: 100vh
+	padding: 10px 15px
+	@media (min-width: 480px)
+		padding: 40px 60px
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	> header
+		display: flex
+		justify-content: space-between
+		align-items: center
+		> a.logo
+			height: 75px
+			width: 211px
+			&:before
+				content: url(/images/logo.svg)
+		> ul.social-nav-list
+			margin: 0
+			padding: 0
+			list-style-type: none
+			align-items: center
+			display: none
+			@media (min-width: 640px)
+				display: flex
+			li
+				width: 24px
+			li:not(:first-child)
+				margin-left: 5px
+			li > a
+				display: inline-block
+				width: 24px
+				max-height: 18px
+			li.facebook > a::before
+				content: url(/images/social-facebook.svg)
+			li.twitter > a::before
+				content: url(/images/social-twitter.svg)
+			li.vimeo > a::before
+				content: url(/images/social-vimeo.svg)
+			li.youtube > a::before
+				content: url(/images/social-youtube.svg)
+	> main
+		flex-grow: 1
+		padding-top: 25px
+		@media (min-width: 640px)
+			padding-top: 85px
+		h1
+			margin: 0
+			font-size: 34px
+			font-weight: 100
+			letter-spacing: -.04em
+			@media (min-width: 768px)
+				font-size: 48px
+			@media (min-width: 1024px)
+				font-size: 73px
+			@media (min-width: 1200px)
+				font-size: 80px
+			@media (min-width: 1400px)
+				font-size: 90px
+		p
+			margin-left: 5px
+			font-size: 12px
+			@media (min-width: 768px)
+				font-size: 14px
+			@media (min-width: 1024px)
+				font-size: 16px
+			@media (min-width: 1200px)
+				font-size: 18px
+			@media (min-width: 1400px)
+				font-size: 20px
+		p:nth-child(3)
+			color: $tf-highlight
+			font-weight: 400
+	> footer
+		text-align: center
+		a.scroll-down
+			display: inline-block
+			width: 56px
+			&:before
+				content: url(/images/arrow.svg)
+
+
+
